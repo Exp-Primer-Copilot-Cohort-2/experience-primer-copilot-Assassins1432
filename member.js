@@ -1,12 +1,22 @@
 function skillsmember() {
-  return {
-    name: 'John Doe',
-    skills: ['JavaScript', 'React', 'Node'],
-    // Method
-    getSkills: function() {
-      return this.skills;
-    }
-  }
+    var member = {
+        name: 'Saurabh',
+        age: 30,
+        skills: ['C++', 'C#', 'Java'],
+        address: {
+            city: 'Bangalore',
+            pincode: 560076
+        }
+    };
+    var member1 = {
+        name: 'Anusha',
+        age: 30,
+        skills: ['C++', 'C#', 'Java'],
+        address: {
+            city: 'Bangalore',
+            pincode: 560076
+        }
+    };
+    console.log(member);
+    console.log(member1);
 }
-
-module.exports = skillsmember;
